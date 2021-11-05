@@ -1,6 +1,4 @@
 .gradle
-**/build/
-!src/**/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -15,3 +13,10 @@ gradle-app.setting
 Topics/
 Encryption-Decryption/**
 !Encryption-Decryption/task/
+!Encryption-Decryption/task/**
+course-info.yaml
+course-remote-info.yaml
+
+
+**/build/
+**/out/
